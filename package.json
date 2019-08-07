@@ -8,7 +8,12 @@
   },
   "dependencies": {
     "react": "16.8.6",
-    "react-native": "0.60.4"
+    "react-native": "0.60.4",
+    "react-native-chart-kit": "^3.2.0",
+    "react-native-maps": "^0.25.0",
+    "react-native-modal": "^11.3.1",
+    "react-native-modal-datetime-picker": "^7.5.0",
+    "react-native-router-flux": "^4.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.5.0",
@@ -21,5 +26,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
   }
 }

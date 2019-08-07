@@ -28,7 +28,7 @@ const App = () => {
   return (
     <Fragment>
       <StatusBar barStyle="dark-content" />
-      <Text>asdasd</Text>
+      <Text style={{ fontFamily: "roboto-bold" }}>asdasd</Text>
     </Fragment>
   );
 };
